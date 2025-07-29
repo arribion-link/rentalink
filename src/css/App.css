@@ -1,0 +1,161 @@
+:root{
+    --primary: rgb(238, 119, 0);
+    --background-color: rgb(239, 239, 239) ;
+    --base-background: #ffffff;
+}
+
+
+.introduction-section{
+    min-height: 80vh;
+}
+
+
+.introduction-section .cta-container{
+    margin-top: 30vh;
+}
+
+.introduction-section h1{
+    padding-bottom: 1em;
+    color: var(--primary);
+    font-size: 2em;
+    text-align: start;
+}
+
+.introduction-section h2{
+    font-size: 1em;
+    color: gray;
+    margin-bottom: 2em;
+}
+
+.cta-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.cta-btn-container{
+    text-align: center;
+    padding: 2em 0em;
+}
+
+.cta-btn-container button{
+    margin: 0.5em;
+    padding: 8px;
+    border: 1px solid gainsboro;
+    font-weight: 600;
+    font-size: 1.1em;
+    /* height: 2em; */
+    background-color: dodgerblue;
+    color: white;
+}
+.cta-seo-optimization-features-container{
+    border: 1px solid gainsboro;
+    padding: 1em;
+}
+
+.cta-core-features-heading{
+   margin: 1em 0em;
+   color: dodgerblue;
+}
+
+.cta-seo-optimization-features-container ul h3{
+    color: gray;
+    padding: 0.3em;
+    border: 1px solid gainsboro;
+    margin: 0.3em;
+}
+
+.cta-seo-optimization-features-container ul h3:hover{
+    background-color:  var(--primary);
+    color: black;
+}
+
+.me{
+    display: flex;
+}
+
+.cta-image{
+    width: 100%;
+    height: auto;
+    max-width: 50em;
+    display: block;
+    margin-top: 2em;
+}
+
+/* OUR SERVICES SECTION */
+.our-services-section{
+    background-color: rgb(255, 247, 238);
+}
+
+.services-container{
+    display: grid;
+    grid-template-columns:  repeat(4, 1fr);
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* WHY CHOOSE RENTALINK SCTION */
+.why-choose-rentalink-section{
+    margin: 4em 0em;
+}
+
+.why-choose-rentalink-section h1{
+    color: var(--primary);
+    font-size: 2.1em;
+}
+
+/* PRICING SECTION */
+.pricing-section{
+    /* align-items: center; */
+    padding-top: 20vh;
+    min-height: 90vh;
+    margin: 4em 0em;
+    background-color: var(--background-color) ;
+}
+.pricing-section h1{
+    text-align: center;
+    font-size: 2em;
+    color:  var(--primary) ;
+}
+.pricing-container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2em;
+}
+
+/* BLOG SECTION */
+.blog-section{
+    min-height: 90vh;
+}
+
+.Blog-Container{
+    display: grid;
+    /* grid-template-columns:   repeat(4, 1fr); */
+}
+
+
+/* FOOTER CALL TO ACTION SECTION */
+.footer-cta-section{
+    padding: 2em;
+    min-height: 50vh;
+    background-color: gainsboro;
+}
+
+
+@media(min-width: 500px){
+    .pricing-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media(min-width: 768px){
+    .pricing-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media(min-width: 1024px){
+    .pricing-container {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}

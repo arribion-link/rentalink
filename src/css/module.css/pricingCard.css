@@ -1,0 +1,21 @@
+.pricing-card{
+    background-color: #ffffff;
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+    min-height: 25em;
+    padding: 1em;
+    margin: 1em;
+    transition: transform 1s ;
+}
+
+.pricing-card h2{
+    color: dodgerblue;
+}
+
+.pricing-card h3{
+    color: grey;
+}
+
+.pricing-card:hover{
+    transform: translateY(-5px);
+}

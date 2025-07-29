@@ -1,0 +1,87 @@
+header{
+    /* background-color: rgb(240, 240, 240); */
+    min-height: 5em;
+    /* position: fixed; */
+    top: 0;
+    left: 0;
+    width: 100vw;
+    padding: 0;
+    align-items: center;
+    box-shadow: 1px 1px 19px -9px rgba(166, 165, 165, 0.776);
+}
+
+.logo{
+    width: 100%;
+    height: auto;
+    max-width: 20px;
+}
+
+.search-nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 3em;
+    padding: 0.71em;
+    background-color: rgb(255, 255, 255);
+}
+.nav-search-input-styles{
+    box-shadow: 1px 1px 19px -9px rgba(214, 214, 214, 0.776);
+    border: 1px solid rgb(236, 236, 236);
+    /* border-radius: 50px; */
+    padding: 2px 8px;
+}
+.search-nav input{
+    border: none;
+    height: 2.5em;
+    width: 30vw;
+    padding: 4px;
+    font-size: 1.1em;
+}
+
+.search-nav input:focus{
+    outline: none;
+}
+
+nav .nav-bar{
+    display: flex;
+    justify-content: space-around;
+    padding: 2em;
+}
+
+nav .nav ul{
+    display: flex;
+    gap: 4em;
+    list-style: none;
+}
+
+nav .nav ul li a{
+    font-size: 1.5em;
+    color: dodgerblue;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+nav .nav ul li a:hover{
+    transform: translateY(-2px);
+    color: burlywood;
+}
+
+.nav-cta-btn{
+    height: 2.5em;
+    width: 15em;
+    border: 1px solid burlywood ;
+    font-weight: 700;
+    font-size: larger;
+    background-color: rgb(254, 144, 1);
+    color: white;
+    transition: border-radius 1.025s ease-out;
+}
+
+.nav-cta-btn:hover{
+    background-color:rgb(255, 160, 36) ;
+    border-radius: 50px;
+}
+
+.hr{
+   border: 1px solid rgb(244, 241, 241);
+}

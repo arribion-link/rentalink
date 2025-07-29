@@ -1,0 +1,9 @@
+.service-card{
+    background-color: #ffffff;
+    max-width: 40em;
+    margin: 1em;
+    padding: 1em;
+    border-radius: 5px ;
+    box-shadow: 1px 1px 20px -5px gainsboro;
+    min-height: 20em;
+}
