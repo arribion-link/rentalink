@@ -1,0 +1,65 @@
+/* HOW IT WORKS CARDS */
+.how-it-works-card{
+    padding: 1em;
+    margin: 1em;
+    background-color: white;
+    box-shadow: 5px 5px 20px -5px rgba(128, 128, 128, 0.555);
+    min-height: 35em;
+    height: auto;
+    border-radius: 5px;
+    /* max-width: 180px; */
+}
+
+@media(min-width:768px){
+    .how-it-works-card{
+        min-width: 40vw;
+    }
+}
+
+
+/* SERVICES CARDS */
+.service-card{
+    border-radius: 10px ;
+    padding: 1em;
+    margin: 1em;
+    background-color: rgb(92, 92, 92);
+    color: rgb(242, 255, 255);
+    min-height: 15em;
+}
+
+/* WHY CHOOSE RENTALINK  */
+
+
+/* PRICING CARDS */
+.pricing-card{
+    min-height: 15em;
+    /* max-width: 768px; */
+    padding: 1em;
+    margin: 1em;
+    border: 3px solid rgb(0, 0, 0);
+    /* background-color: rgb(35, 0, 35); */
+    /* color: white; */
+    border-radius: 5px;
+}
+
+/* TESTIMONIAL CARDS */
+.testimonial-card{
+    max-width: 30em;
+    padding: 1em;
+    margin: 1em;
+    background-color: white;
+    box-shadow: 5px 5px 15px -4px rgba(128, 128, 128, 0.272);
+}
+
+
+/* BLOG CARDS */
+.blog-card{
+   margin: 1em;
+   box-shadow: 1px 1px 15px -1px rgba(128, 128, 128, 0.242);
+   padding: 1em;
+}
+.blog-thumbnail{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}

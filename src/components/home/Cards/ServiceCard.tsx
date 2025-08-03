@@ -1,7 +1,4 @@
-// import React from 'react'
-
-// import type { Url } from "url"
-import '../../css/module.css/ServicesCard.css'
+import '../../../css/module.css/Cards.css'
 
 // Service Card
 type ServiceCardProps = {

@@ -1,8 +1,7 @@
-// import React from 'react'
-import ReadBlog from "./buttons-componts/ReadBlog"
-import '../../css/module.css/BlogCard.css'
+import '../../../css/module.css/Cards.css'
 
 type BlogCardProps = {
+    Img:string
     blogTitle: String,
     blogAuthor: String,
     updatedOn: String,
@@ -10,11 +9,11 @@ type BlogCardProps = {
 }
 
 const BlogCard =
-    ({blogTitle, blogAuthor, updatedOn, blogPreview}:BlogCardProps) => {
+    ({Img, blogTitle, blogAuthor, updatedOn, blogPreview}:BlogCardProps) => {
   return (
     <div className='blog-card'>
           <img
-              src=""
+              src={Img}
               alt="blog Thumbnail"
               className="blog-thumbnail"
           />
@@ -27,7 +26,6 @@ const BlogCard =
                   <span> { updatedOn }</span>
               </p>
               <p className="blog-preview">{ blogPreview }</p>
-              <ReadBlog/>
           </div>
     </div>
   )

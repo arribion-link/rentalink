@@ -1,0 +1,40 @@
+:root{
+    --base-background: white;
+    --background: rgb(230, 230, 230);
+    --secondary: black;
+    --base-company: dodgerblue;
+}
+
+header{
+    /* display: none; */
+    position: relative;
+    z-index: 100;
+    background-color: var(--base-background);
+    box-shadow: 5px 5px 20px -6px gray;
+    padding: 1.5em 0em;
+}
+
+header nav{
+    display: flex;
+    justify-content: space-around;
+}
+
+header .nav{
+    position: absolute;
+    background-color: var(--base-company);
+    width: 90vw;
+    right: 0;
+    height: 100vh;
+    margin-top: 1em;
+}
+
+.search-nav{
+    display: none;
+}
+
+@media(min-width: 768px){
+    
+header .nav{
+   display: none;
+}
+}

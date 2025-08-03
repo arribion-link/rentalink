@@ -1,8 +1,5 @@
-// import React from 'react'
-// HEADER
-// import { link } from 'fs'
-import  '../../../css/module.css/Header.css'
-
+import  '../../../css/module.css/Header.module.css'
+import { Link } from 'react-router-dom'
 const Header = () => {
   return (
       <header>
@@ -25,12 +22,13 @@ const Header = () => {
                   <li><a href="/">About</a></li>
                   <li><a href="/">Contact</a></li>
               </ul>
-          </div>
-          <div>
-              <button className='nav-cta-btn'>Get Started as a LandLord</button>
+            <div>
+              <Link to='/Dashbord'>
+                  <button className='nav-cta-btn'>Get Started as a LandLord</button>
+              </Link>
+              </div>
           </div>
         </div>
-<hr className='hr' />
         <div className='search-nav'>
           <div className='nav-search-input-styles'>
             <input
@@ -41,6 +39,9 @@ const Header = () => {
           <div>
             social media icons
           </div>
+        </div>
+        <div>
+          =
         </div>
       </nav>
       

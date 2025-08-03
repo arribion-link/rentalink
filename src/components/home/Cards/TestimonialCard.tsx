@@ -1,17 +1,16 @@
-import '../../css/module.css/TeastimonialCards.css'
+import '../../../css/module.css/Cards.css'
 
 type TestimonialCardProps = {
-    imgPath: String,
     landLordName: String,
     landLordMessage: String
 }
 const TestimonialCard =
-    ({ landLordName, imgPath, landLordMessage }: TestimonialCardProps) => {
+    ({ landLordName, landLordMessage }: TestimonialCardProps) => {
   return (
     <div className='testimonial-card'>
           <img
-              src={imgPath}
-              alt={landLordName}
+              src=""
+              alt=""
           />
           <h4>{ landLordName }</h4>
           <p>{ landLordMessage }</p>

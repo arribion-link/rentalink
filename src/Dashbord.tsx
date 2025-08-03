@@ -4,10 +4,8 @@ import Aside from "./components/dashboard-components/navigation/Aside"
 import Header from "./components/dashboard-components/navigation/Header"
 import Stats from "./components/dashboard-components/Stats"
 import WelcomeSection from "./components/dashboard-components/WelcomeSection"
-// Styles
-import './css/dashboard/style.css'
 
-const Home = () => {
+const Dashbord = () => {
   return (
       <div className="dashboard-container">
         <Aside />
@@ -21,4 +19,4 @@ const Home = () => {
   )
 }
 
-export default Home
+export default Dashbord

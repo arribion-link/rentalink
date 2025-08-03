@@ -1,5 +1,4 @@
-// import React from 'react'
-import '../../css/module.css/WhyRentalink.css'
+
 
 type WhyRentaLinkProps = {
     heading: String,
